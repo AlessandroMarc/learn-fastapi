@@ -60,7 +60,7 @@ del user_dictionary["name"]
 # If you want to clone, you can use the copy() method. You cannot assign a new to the old one because if you then modify the first one, the second one will also be modified.
 user_dictionary2 = user_dictionary.copy()
 
-# Functions
-def my_function():
-    print("Hello from a function")
-
+# Standard library comes with Pythin
+import random
+types_of_drink = ["coffee", "tea", "water"]
+print(random.choice(types_of_drink))
