@@ -1,3 +1,6 @@
-"# Fastapi-The-Complete-Course"
+# Initialise
 
-Course and code created by: Eric Roby
+``` bash
+source fastapienv/bin/activate;
+uvicorn books:app --reload;
+```
