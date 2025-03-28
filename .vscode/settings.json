@@ -1,4 +1,4 @@
 {
 	"python.analysis.extraPaths": ["./PythonRefresher/OOP/6. OOP"],
-	"python.linting.pylintEnabled": true
+	"python.linting.pylintEnabled": false
 }
