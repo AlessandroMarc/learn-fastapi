@@ -6,5 +6,5 @@ python -m venv fastapienv
 fastapienv\Scripts\activate.bat
 source fastapienv/bin/activate;
 
-uvicorn books:app --reload;
+uvicorn main:app --reload;
 ```
