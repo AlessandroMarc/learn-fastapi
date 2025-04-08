@@ -1,7 +1,7 @@
 from fastapi import FastAPI
-from .database import engine
-from .routers import auth, todos, admin, users
-from todos.models import Todos
+from database import engine
+from routers import auth, todos, admin, users
+from models import Todos
 
 app = FastAPI()
 
@@ -9,7 +9,7 @@ Todos.metadata.create_all(bind=engine)
 
 
 @app.get('/healthy')
-def helath_check():
+def health_check():
     return {'status': 'ok'}
 
 
